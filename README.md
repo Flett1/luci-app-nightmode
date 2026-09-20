@@ -9,9 +9,9 @@ LuCI application for OpenWrt to automatically toggle router LEDs based on schedu
 * **UCI Integration:** Configuration stored in `/etc/config/general`.
 * **Lightweight:** Shell-based daemon with minimal system footprint.
 
-## Tested Hardware / Совместимость
+## Tested Hardware
 
-* **CMCC RAX3000M** (MediaTek MT7981) — Verified working on OpenWrt 23.05 / 24.10.
+* **CMCC RAX3000M** (MediaTek MT7981) — Verified working on OpenWrt 25.12.5.
 
 ## Installation
 
