@@ -1,0 +1,40 @@
+#!/bin/sh
+
+# 1. Создание дефолтного UCI-конфига (/etc/config/general)
+if [ ! -f /etc/config/general ]; then
+	touch /etc/config/general
+
+	uci set general.first=first
+	uci set general.first.button1='0'
+
+	uci set general.second=second
+	uci set general.second.button2='1'
+	uci set general.second.first_time='06:00'
+	uci set general.second.second_time='22:00'
+
+	uci commit general
+fi
+
+# 2. Настройка cron
+CRON_JOB="* * * * * /usr/bin/nightmode.sh"
+CRONTAB_DIR="/etc/crontabs"
+CRONTAB="$CRONTAB_DIR/root"
+
+mkdir -p "$CRONTAB_DIR"
+touch "$CRONTAB"
+
+if ! grep -qF "$CRON_JOB" "$CRONTAB" 2>/dev/null; then
+	echo "$CRON_JOB" >> "$CRONTAB"
+fi
+
+/etc/init.d/cron enable
+/etc/init.d/cron restart
+
+# 3. Включение и первичный запуск службы
+/etc/init.d/nightmode enable
+/etc/init.d/nightmode start
+
+# 4. Очистка кэша LuCI
+rm -f /tmp/luci-indexcache /tmp/luci-modulecache*
+
+exit 0

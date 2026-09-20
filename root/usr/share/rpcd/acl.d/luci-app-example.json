@@ -1,0 +1,11 @@
+{
+	"luci-app-nightmode": {
+		"description": "Grant access to Night Mode configuration",
+		"read": {
+			"uci": [ "general" ]
+		},
+		"write": {
+			"uci": [ "general" ]
+		}
+	}
+}

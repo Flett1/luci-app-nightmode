@@ -1,0 +1,32 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+msgid "Night Mode"
+msgstr ""
+
+msgid "Night mode"
+msgstr ""
+
+msgid "Night mode for leds."
+msgstr ""
+
+msgid "Led indication"
+msgstr ""
+
+msgid "Led off"
+msgstr ""
+
+msgid "Scheduled"
+msgstr ""
+
+msgid "Time starts leds:"
+msgstr ""
+
+msgid "Time stop leds:"
+msgstr ""
+
+msgid "Time example: HH:MM"
+msgstr ""
+
+msgid "Invalid time format. Use HH:MM or hh:mm AM/PM"
+msgstr ""

@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+
+msgid "Night Mode"
+msgstr "Ночной режим"
+
+msgid "Night mode"
+msgstr "Ночной режим"
+
+msgid "Night mode for leds."
+msgstr "Управление ночным режимом светодиодов."
+
+msgid "LED indication"
+msgstr "LED-индикация"
+
+msgid "Led off:"
+msgstr "Выключить светодиоды:"
+
+msgid "Scheduled:"
+msgstr "По расписанию:"
+
+msgid "Time starts leds:"
+msgstr "Время включения:"
+
+msgid "Time stop leds:"
+msgstr "Время выключения:"
+
+msgid "Time example: HH:MM"
+msgstr "Пример времени: ЧЧ:ММ"
+
+msgid "Invalid time format. Use HH:MM"
+msgstr "Неверный формат времени. Используйте ЧЧ:ММ"

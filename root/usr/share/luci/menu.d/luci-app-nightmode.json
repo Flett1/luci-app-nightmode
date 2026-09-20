@@ -1,0 +1,10 @@
+{
+	"admin/system/nightmode": {
+		"title": "Night Mode",
+		"order": 1,
+		"action": {
+			"type": "view",
+			"path": "nightmode/form"
+		}
+	}
+}
