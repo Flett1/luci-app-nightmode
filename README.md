@@ -15,4 +15,4 @@ LuCI application for OpenWrt to automatically toggle router LEDs based on schedu
 
 1. Add package source to your OpenWrt build tree or SDK:
    ```bash
-   git clone [https://github.com/Flett1/luci-app-nightmode.git](https://github.com/Flett1/luci-app-nightmode.git) package/luci-app-nightmode
+   git clone https://github.com/Flett1/luci-app-nightmode.git package/luci-app-nightmode
