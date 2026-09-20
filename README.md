@@ -9,7 +9,8 @@ LuCI application for OpenWrt to automatically toggle router LEDs based on schedu
 * **UCI Integration:** Configuration stored in `/etc/config/general`.
 * **Lightweight:** Shell-based daemon with minimal system footprint.
 
-**Status:** Confirmed working as of September 2026
+## Status:
+* **Confirmed working** as of September 2026
 
 ## Tested Hardware
 
