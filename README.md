@@ -18,8 +18,29 @@ LuCI application for OpenWrt to automatically toggle router LEDs based on schedu
 
 ## Installation
 
-### Building from source in OpenWrt SDK
+## Installation
 
-1. Add package source to your OpenWrt build tree or SDK:
-   ```bash
-   git clone https://github.com/Flett1/luci-app-nightmode.git package/luci-app-nightmode
+### Easy Installation
+
+1. Download and install **WinSCP**.
+2. Connect to your router using its IP address, the `root` username, and the router password.
+3. Copy both `.apk` files to the `/tmp` directory on the router.
+4. Connect to the router via SSH.
+5. Run the following command:
+
+```sh
+apk add --allow-untrusted /tmp/luci-app-nightmode-*.apk /tmp/luci-i18n-nightmode-ru-*.apk
+```
+
+After installation, the application will appear in the **LuCI** interface.
+
+### Building from Source in OpenWrt SDK
+
+1. Navigate to your OpenWrt SDK or build tree directory.
+2. Clone the package repository:
+
+```bash
+git clone https://github.com/Flett1/luci-app-nightmode.git package/luci-app-nightmode
+```
+
+3. The package can then be built using the OpenWrt SDK.
