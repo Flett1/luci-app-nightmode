@@ -35,7 +35,8 @@ fi
 /etc/init.d/nightmode start
 
 # 4. Обновление LuCI
+rm -f /tmp/luci-indexcache.*
+rm -rf /tmp/luci-modulecache*
 /etc/init.d/rpcd reload
-/etc/init.d/uhttpd restart
 
 exit 0
