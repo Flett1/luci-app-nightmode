@@ -42,3 +42,7 @@ git clone https://github.com/Flett1/luci-app-nightmode.git package/luci-app-nigh
 ```
 
 3. The package can then be built using the OpenWrt SDK.
+
+---
+
+**Language:** [🇬🇧 English](README.md) · [🇷🇺 Русский](README.ru.md)
