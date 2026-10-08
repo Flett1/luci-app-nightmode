@@ -34,7 +34,8 @@ fi
 /etc/init.d/nightmode enable
 /etc/init.d/nightmode start
 
-# 4. Очистка кэша LuCI
-rm -f /tmp/luci-indexcache /tmp/luci-modulecache*
+# 4. Обновление LuCI
+/etc/init.d/rpcd reload
+/etc/init.d/uhttpd restart
 
 exit 0
