@@ -18,8 +18,6 @@ LuCI application for OpenWrt to automatically toggle router LEDs based on schedu
 
 ## Installation
 
-## Installation
-
 ### Easy Installation
 
 1. Download and install **WinSCP**.
